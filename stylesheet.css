@@ -1,3 +1,28 @@
-html {
-    background-color: gray;
+p, td {
+    color: white;
+    font-size: 18px;
 }
+
+h2, th, h1 {
+    color: rgb(255, 160, 19);
+}
+
+.bodyConfig {
+    background-color: rgb(105, 105, 105);
+}
+
+.aboutMeTextBox {
+    background-color: rgb(54, 54, 54);
+}
+.skillsContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.skillsContainerItem {
+    background-color: rgba(54, 54, 54);
+}
+td,  table {
+    border: 2px solid black;
+}
+
