@@ -1,5 +1,5 @@
 p, td {
-    color: white;
+    color: rgb(199, 199, 199);
     font-size: 18px;
 }
 
@@ -9,20 +9,30 @@ h2, th, h1 {
 
 .bodyConfig {
     background-color: rgb(105, 105, 105);
+
 }
 
 .aboutMeTextBox {
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(80, 80, 80);
 }
 .skillsContainer{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
 }
+
 .skillsContainerItem {
     background-color: rgba(54, 54, 54);
 }
-td,  table {
+
+table {
     border: 2px solid black;
 }
 
+td {
+    border: .1px solid black;
+}
+
+#crabRave {
+    justify-content: center;
+}
