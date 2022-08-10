@@ -1,0 +1,106 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: rgb(19, 227, 255);
+}
+
+h3 {
+    color: blueviolet;
+}
+
+body h1{
+    color: rgb(19, 227, 255);
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.850);
+    border: 2px solid rgb(19, 227, 255);
+    border-radius: 5px;
+    padding: 0 10px;
+    width: fit-content;
+}
+
+p, td {
+    color: rgb(199, 199, 199);
+    font-size: 18px;
+}
+
+.aboutMeTextBox {
+    background-color: rgba(0, 0, 0, 0.678);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    width: fit-content;
+}
+
+.bodyConfig {
+    background-color: rgb(255, 255, 255);
+    background-image: url(/images/mainbg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#crabRave {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+table {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+td {
+    border: .1px solid black;
+    padding: 5px;
+}
+
+.skillSection {
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+}
+
+#skillBox {
+    background-color: rgba(0, 0, 0, 0.678);
+    height: 300px;
+    width:fit-content;
+    border: 2px solid rgb(19, 227, 255);
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+#education {
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 320px;
+    width:fit-content;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#education h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#certifications {
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 320px;
+    width:fit-content;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#certifications h1 {
+    text-align: center;
+    font-size: 35px;
+}
