@@ -6,15 +6,18 @@
 
 #underConstructionHeader {
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 20px;
     background-color: orange;
     position: fixed;
     height: fit-content;
     width: 100%;
     padding: 0 5px;
-    animation: 3s linear 1s infinite running;
     border: 3px solid red;
     z-index: 10;
+}
+
+#underConstructionHeader p {
+    animation: 13s linear 1s infinite running slide-left-right;
 }
 
 h3 {
@@ -38,7 +41,7 @@ h1, h2, th{
 
 main {
     position: relative;
-    top: 50px;
+    top: 35px;
 }
 
 body main p, td {
@@ -66,6 +69,7 @@ body main p, td {
     position: relative;
     width: fit-content;
     margin: 0 auto;
+    padding: 0 0 10px 0;
 }
 
 table {
@@ -77,25 +81,14 @@ td {
     padding: 5px;
 }
 
-.skillSection {
+#skill-section {
     width: fit-content;
     margin: 0 auto;
     position: relative;
+
 }
 
-#skillBox {
-    background-color: rgba(0, 0, 0, 0.678);
-    height: 300px;
-    width:fit-content;
-    border: 2px solid rgb(19, 227, 255);
-    border-radius: 5px;
-    padding: 5px 10px;
-    display: inline-block;
-    margin: 0 auto;
-    
-}
-
-#education {
+#certs-and-edu {
     background-color: rgba(0, 0, 0, 0.801);
     height: 320px;
     width:fit-content;
@@ -103,52 +96,52 @@ td {
     border-radius: 5px;
     padding: 5px 10px;
     display: inline-block;
+    margin: 5px;
+    clear: both;
 }
 
-#education h1 {
+#certs-and-edu h1 {
     text-align: center;
     font-size: 30px;
     margin: 20px auto;
 }
 
-#certifications {
-    background-color: rgba(0, 0, 0, 0.801);
-    height: 320px;
-    width:fit-content;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    padding: 5px 10px;
-    display: inline-block;
-}
-
-#certifications h1 {
-    text-align: center;
-    font-size: 30px;
-    margin: 20px auto;
-}
-
-#footerNav {
+#footer-nav {
     background-color: black;
-    height: fit-content;
+    height: 50px;
     width: 100%;
     position: absolute;
     bottom: 0;
     z-index: 10;
     text-align: center;
-
 }
 
-#footerNav a {
-    font-size: 20px;
+#footer-nav a {
+    font-size: 16px;
+    font-weight: bold;
     color: white;
     background-color: rgb(19, 227, 255);
     padding: 5px;
     border: 3px solid;
     border-radius: 5px;
     text-decoration: none;
+    display: inline-block;
 }
 
-#footerNav a:hover {
+#footer-nav a:hover {
     color: rgb(19, 227, 255);
     background-color: white;
+}
+
+/* animation stuff */
+@keyframes slide-left-right {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+    margin-left: -20%;
+    width: 100%;
+    }
 }
