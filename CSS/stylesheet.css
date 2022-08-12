@@ -20,17 +20,13 @@
     animation: 13s linear 1s infinite running slide-left-right;
 }
 
-h3 {
-    color: blueviolet;
-}
-
 h1, h2, th{
     color: rgb(19, 227, 255);
 }
 
 #pageHeader{
     color: rgb(19, 227, 255);
-    font-size: 20px;
+    font-size: 16px;
     font-family: Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0.850);
     border: 2px solid rgb(19, 227, 255);
@@ -40,29 +36,30 @@ h1, h2, th{
 }
 
 main {
+    backdrop-filter: blur(8px);
     position: relative;
     top: 35px;
 }
 
 body main p, td {
     color: rgb(199, 199, 199);
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .aboutMeTextBox {
     background-color: rgba(0, 0, 0, 0.678);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 10px auto;
+    padding: 5px 10px;
     width: fit-content;
 }
 
 .bodyConfig {
     background-color: rgb(255, 255, 255);
-    background-image: url(/images/mainbg.jpg);
+    background-image: url(/images/george-pagan-iii-WwCTFNpZx8g-unsplash.jpg);
     background-size:cover;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
 }
 
 #crabRave {
@@ -85,30 +82,30 @@ td {
     width: fit-content;
     margin: 0 auto;
     position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
 #certs-and-edu {
     background-color: rgba(0, 0, 0, 0.801);
-    height: 320px;
-    width:fit-content;
+    height: fit-content;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
     padding: 5px 10px;
-    display: inline-block;
-    margin: 5px;
+    margin: 5px auto;
     clear: both;
 }
 
 #certs-and-edu h1 {
     text-align: center;
-    font-size: 30px;
-    margin: 20px auto;
+    font-size: 20px;
+    margin: 10px auto;
 }
 
 #footer-nav {
     background-color: black;
-    height: 50px;
+    height: 40px;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -117,7 +114,7 @@ td {
 }
 
 #footer-nav a {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: white;
     background-color: rgb(19, 227, 255);
