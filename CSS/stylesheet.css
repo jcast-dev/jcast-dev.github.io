@@ -21,15 +21,15 @@
 }
 
 h1, h2, th{
-    color: rgb(19, 227, 255);
+    color: rgb(255, 196, 0);
 }
 
 #pageHeader{
-    color: rgb(19, 227, 255);
+    color: rgb(255, 196, 0);
     font-size: 16px;
     font-family: Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0.850);
-    border: 2px solid rgb(19, 227, 255);
+    border: 2px solid rgb(255, 83, 83);
     border-radius: 5px;
     padding: 0 10px;
     width: fit-content;
@@ -69,12 +69,8 @@ body main p, td {
     padding: 0 0 10px 0;
 }
 
-table {
-    border: 2px solid rgb(255, 255, 255);
-}
-
 td {
-    border: .1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 5px;
 }
 
@@ -84,13 +80,12 @@ td {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 #certs-and-edu {
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.900);
     height: fit-content;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 83, 83);
     border-radius: 5px;
     padding: 5px 10px;
     margin: 5px auto;
@@ -116,8 +111,8 @@ td {
 #footer-nav a {
     font-size: 14px;
     font-weight: bold;
-    color: white;
-    background-color: rgb(19, 227, 255);
+    color: rgb(255, 83, 83);
+    background-color: rgb(255, 196, 0);
     padding: 5px;
     border: 3px solid;
     border-radius: 5px;
@@ -126,8 +121,8 @@ td {
 }
 
 #footer-nav a:hover {
-    color: rgb(19, 227, 255);
-    background-color: white;
+    color: rgb(255, 196, 0);
+    background-color: rgb(255, 83, 83);
 }
 
 /* animation stuff */
