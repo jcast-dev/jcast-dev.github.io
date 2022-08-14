@@ -43,12 +43,12 @@ main {
 
 body main p, td {
     color: rgb(199, 199, 199);
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .aboutMeTextBox {
     background-color: rgba(0, 0, 0, 0.678);
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 83, 83);
     border-radius: 5px;
     margin: 10px auto;
     padding: 5px 10px;
@@ -62,25 +62,47 @@ body main p, td {
     background-repeat:repeat;
 }
 
-#crabRave {
-    position: relative;
-    width: fit-content;
-    margin: 0 auto;
-    padding: 0 0 10px 0;
-}
-
 td {
     border: 1px solid rgb(255, 255, 255);
     padding: 5px;
 }
 
-#skill-section {
+#layer-2 {
+    width: max-content;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#layer-3 {
     width: fit-content;
     margin: 0 auto;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+#learning-stuff-list {
+    background-color: rgba(0, 0, 0, 0.900);
+    height: fit-content;
+    border: 2px solid rgb(255, 83, 83);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin: 0 auto;
+}
+
+#learning-stuff-list h2 {
+    text-align: center;
+}
+
+#learning-stuff-list ul{
+    justify-content: center;
+    margin: 10px auto;
+}
+
 
 #certs-and-edu {
     background-color: rgba(0, 0, 0, 0.900);
@@ -89,7 +111,7 @@ td {
     border-radius: 5px;
     padding: 5px 10px;
     margin: 5px auto;
-    clear: both;
+    width: max-content;
 }
 
 #certs-and-edu h1 {
